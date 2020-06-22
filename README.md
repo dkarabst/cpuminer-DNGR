@@ -3,7 +3,9 @@ CPUMiner-Multi
 For DangerCoin easy install:
 
 git clone https://github.com/dngrcoin/cpuminer-DNGR.git
+
 cd cpuminer-DNGR
+
 ./build.sh
 
 mining on a stratum pool:
