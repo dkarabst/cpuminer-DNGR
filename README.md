@@ -1,6 +1,21 @@
 CPUMiner-Multi
 ==============
+For DangerCoin easy install:
 
+git clone https://github.com/dngrcoin/cpuminer-DNGR.git
+cd cpuminer-DNGR
+./build.sh
+
+mining on a stratum pool:
+
+./cpuminer -a lyra2z -o stratum+tcp://185.17.3.221:4553 -u dGX56MQgmbgp8HYCHh2XZabwD59tCQxSvX -p c=DNGR
+
+-------------
+solomining:
+
+./cpuminer -a lyra2z -o http://127.0.0.1:49003 -u dangeruser -p 12gh87er --coinbase-addr=dGX56MQgmbgp8HYCHh2XZabwD59tCQxSvX
+
+     // u- userRPC  and p- password RPC from dngrcoin.conf dngrcoind
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!! THIS IS A HACKED VERSION TO SUPPORT ZCOIN (XZC)'s Lyra2Z algo ! ONLY USE WITH ZCOIN AFTER BLOCK 20500 !!
